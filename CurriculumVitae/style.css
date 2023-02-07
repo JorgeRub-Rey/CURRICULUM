@@ -1,0 +1,40 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 25%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+thead th:nth-child(4) {
+  width: 30%;
+}
+
+
+th, td {
+  padding: 20px;
+}
+
+#Encabezado{
+  left: 40%;
+  position: relative;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+  }
+  body{
+    background-color: #55eeff;
+  }
